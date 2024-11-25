@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fgsfdsmod:amethyst_ore"
+  },
+  "result": "fgsfdsmod:amethyst",
+  "experience": 1.0,
+  "cookingtime": 200
+}

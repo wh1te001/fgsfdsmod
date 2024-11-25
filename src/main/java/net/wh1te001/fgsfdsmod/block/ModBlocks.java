@@ -28,6 +28,25 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE)
                     .setRequiresTool()
                     .hardnessAndResistance(5f)));
+    public static final RegistryObject<Block> AMETHYST_BLOCK = registerBlock("amethyst_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> TSUKASA_BLOCK = registerBlock("tsukasa_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ORGANIC)
+                    .harvestLevel(1)
+                    .hardnessAndResistance(1f)));
+    public static final RegistryObject<Block> UGADATE_BLOCK = registerBlock("ugadate_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .hardnessAndResistance(1f)));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

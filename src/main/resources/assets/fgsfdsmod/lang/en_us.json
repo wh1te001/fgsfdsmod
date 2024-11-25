@@ -1,5 +1,8 @@
 {
   "item.fgsfdsmod.amethyst": "Amethyst",
-  "block.fgsfdsmod.amethyst_ore": "Amethyst ore",
-  "itemGroup.fgsfdsModTab": "fgsfds"
+  "block.fgsfdsmod.amethyst_ore": "Amethyst Ore",
+  "itemGroup.fgsfdsModTab": "fgsfds",
+  "block.fgsfdsmod.tsukasa_block": "Tsukasa Block",
+  "block.fgsfdsmod.ugadate_block": "UGADAITE",
+  "block.fgsfdsmod.amethyst_block": "Amethyst Block"
 }

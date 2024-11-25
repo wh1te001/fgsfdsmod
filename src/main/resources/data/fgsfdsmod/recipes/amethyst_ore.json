@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%#%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "%": {
+      "item": "fgsfdsmod:amethyst"
+    }
+  },
+  "result": {
+    "item": "fgsfdsmod:amethyst_ore"
+  }
+}

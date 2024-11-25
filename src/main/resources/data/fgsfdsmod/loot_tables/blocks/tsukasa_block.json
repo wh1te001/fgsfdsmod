@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:block",
+          "name": "fgsfdsmod:tsukasa_block"
+
+        }
+      ]
+    }
+  ]
+}
