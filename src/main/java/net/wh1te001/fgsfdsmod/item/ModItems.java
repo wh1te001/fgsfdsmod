@@ -16,6 +16,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(ModItemGroup.FGSFDS_GROUP)));
 
 
+    public static final RegistryObject<Item> FIRESTONE = ITEMS.register("firestone",
+            () -> new Firestone(new Item.Properties().group(ModItemGroup.FGSFDS_GROUP).maxDamage(8)));
+
+
 
 
     public static void register(IEventBus eventBus) {
